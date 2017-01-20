@@ -6013,6 +6013,15 @@ section#about-accordion {
     padding-top: 20px;
     margin-bottom: -250px !important; }
 
+section.about-container-steez {
+  height: 150vh;
+  width: 100vw;
+  border: 3px solid blue;
+  float: left; }
+
+.about-digi-info {
+  padding-bottom: 50px; }
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -20650,14 +20659,15 @@ section.main-process-section {
 .capable-space {
   margin-bottom: 50px; }
 
-.project-planner-main-container * .btn-primary.active,
-.project-planner-main-container * .btn-primary:active,
-.project-planner-main-container * .open > .dropdown-toggle.btn-primary {
-  background-color: #f54320 !important;
-  border: none !important; }
-
-.project-planner-main-container * .btn {
-  background-color: #ccc; }
+.project-planner-main-container * {
+  text-align: center; }
+  .project-planner-main-container * .btn-primary.active,
+  .project-planner-main-container * .btn-primary:active,
+  .project-planner-main-container * .open > .dropdown-toggle.btn-primary {
+    background-color: #f54320 !important;
+    border: none !important; }
+  .project-planner-main-container * .btn {
+    background-color: #fff; }
 
 .form-actions {
   padding: 50px 0;
@@ -20670,12 +20680,13 @@ form.contact-form * h2 {
   text-align: center; }
 
 .requirements-planner-container {
-  padding-left: 7.5%; }
+  padding-left: 10%; }
   .requirements-planner-container .checkbox {
     border: 1px solid #333; }
 
 .checkbox-require-box {
-  max-width: 30%;
+  height: 150px;
+  width: 300px;
   background-color: #bcf1ff;
   margin: 5px 5px;
   padding: 5px 0; }
@@ -20788,7 +20799,7 @@ h4 ~ .side-main-steez-text {
 
 .side-main-steez-right-about {
   background-color: none !important;
-  max-height: 40vh;
+  max-height: 50vh;
   min-width: 30vw; }
 
 .about-container-steez {

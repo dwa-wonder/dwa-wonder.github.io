@@ -20647,6 +20647,9 @@ p {
 section.main-process-section {
   margin-bottom: 50px; }
 
+.capable-space {
+  margin-bottom: 50px; }
+
 .project-planner-main-container * .btn-primary.active,
 .project-planner-main-container * .btn-primary:active,
 .project-planner-main-container * .open > .dropdown-toggle.btn-primary {
@@ -20694,7 +20697,7 @@ form.contact-form * h2 {
   max-height: 100vh;
   min-height: 71vh; }
   .side-main-steez-left h4 {
-    padding-top: 15%;
+    padding-top: 10%;
     color: #f54320 !important;
     padding-left: 15%; }
 
@@ -20703,7 +20706,7 @@ form.contact-form * h2 {
   max-height: 100vh;
   min-height: 50vh; }
   .side-main-steez-left-process h4 {
-    padding-top: 15%;
+    padding-top: 10%;
     color: #f54320 !important;
     padding-left: 15%; }
 
@@ -20712,7 +20715,7 @@ form.contact-form * h2 {
   max-height: 70vh;
   min-height: 40vh; }
   .side-main-steez-left-about-intro h4 {
-    padding-top: 15%;
+    padding-top: 10%;
     color: #f54320 !important;
     padding-left: 15%; }
 
@@ -20762,7 +20765,11 @@ form.contact-form * h2 {
     .side-main-steez-left-about-intro h4 {
       padding-top: 15%;
       color: #f54320 !important;
-      padding-left: 15%; } }
+      padding-left: 15%; }
+  .service-title-steerer {
+    margin-left: 6%;
+    float: left;
+    max-height: 15vh; } }
 
 h4 ~ .side-main-steez-text {
   display: inline-block;

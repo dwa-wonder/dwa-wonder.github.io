@@ -477,9 +477,9 @@
     /*  Contact Form
     /* ---------------------------------------------------------------------- */
 
-    var submitContact = $('#submit-message'),
-        message = $('#msg');
-
+    var submitContactNull = $('#submit-message-null'),
+        messageNull = $('#msg-Null');
+/*
     submitContact.on('click', function(e){
         e.preventDefault();
 
@@ -502,7 +502,7 @@
             }
         });
     });
-
+*/
 })(jQuery);
 
 

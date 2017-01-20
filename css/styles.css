@@ -20697,7 +20697,7 @@ form.contact-form * h2 {
   max-height: 100vh;
   min-height: 71vh; }
   .side-main-steez-left h4 {
-    padding-top: 10%;
+    padding-top: 2%;
     color: #f54320 !important;
     padding-left: 15%; }
 
@@ -20778,10 +20778,11 @@ h4 ~ .side-main-steez-text {
 
 .side-main-steez-left-about {
   background-color: none !important;
-  height: 50vh;
+  height: 100%;
+  max-height: 100vh;
   min-width: 30vw; }
   .side-main-steez-left-about h4 {
-    padding-top: 15%;
+    padding-top: 2%;
     color: #f54320 !important;
     padding-left: 15%; }
 

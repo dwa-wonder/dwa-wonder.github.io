@@ -5955,9 +5955,11 @@ button.close {
     display: none !important; } }
 
 section.section-wrap-about {
+  padding-top: 50px;
   background: #fff !important;
   height: 90%;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: -17.5%; }
 
 .about-description {
   padding-top: 20px;
@@ -6003,16 +6005,13 @@ section#about-accordion {
     display: inherit; }
   section#about-accordion section#about-accordion div.content:hover {
     display: inline; }
-
-h2#hidden-list-item {
-  visibility: hidden; }
-
-.hidden-2nd-title {
-  visibility: hidden; }
-
-.about-text-intro-steez {
-  padding-top: 20px;
-  margin-bottom: -250px !important; }
+  section#about-accordion h2#hidden-list-item {
+    visibility: hidden; }
+  section#about-accordion .hidden-2nd-title {
+    visibility: hidden; }
+  section#about-accordion .about-text-intro-steez {
+    padding-top: 20px;
+    margin-bottom: -250px !important; }
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -20691,30 +20690,30 @@ form.contact-form * h2 {
   color: #333; }
 
 .side-main-steez-left {
-  background-color: #f54320;
+  background-color: none !important;
   max-height: 100vh;
   min-height: 71vh; }
   .side-main-steez-left h4 {
     padding-top: 15%;
-    color: #fff !important;
+    color: #f54320 !important;
     padding-left: 15%; }
 
 .side-main-steez-left-process {
-  background-color: #f54320;
+  background-color: none !important;
   max-height: 100vh;
   min-height: 50vh; }
   .side-main-steez-left-process h4 {
     padding-top: 15%;
-    color: #fff !important;
+    color: #f54320 !important;
     padding-left: 15%; }
 
 .side-main-steez-left-about-intro {
-  background-color: #f54320;
+  background-color: none !important;
   max-height: 70vh;
   min-height: 40vh; }
   .side-main-steez-left-about-intro h4 {
     padding-top: 15%;
-    color: #fff !important;
+    color: #f54320 !important;
     padding-left: 15%; }
 
 .process-steerer {
@@ -20725,18 +20724,18 @@ form.contact-form * h2 {
   float: left; }
 
 .side-main-steez-right {
-  background-color: #fff;
+  background-color: none !important;
   height: 70vh;
   min-width: 30vw;
   overflow: auto; }
 
 .side-main-steez-right-accordion {
-  background-color: #fff;
+  background-color: none !important;
   height: 70vh;
   min-width: 30vw; }
 
 .side-main-steez-right-process {
-  background-color: #fff;
+  background-color: none !important;
   max-height: 100%;
   min-height: 50vh;
   min-width: 30vw;
@@ -20749,20 +20748,20 @@ form.contact-form * h2 {
   * .side-main-steez-right-process h3 {
     font-size: 18px; }
   .side-main-steez-left-process {
-    background-color: #f54320;
+    background-color: none !important;
     max-height: 100vh;
     min-height: 20vh; }
     .side-main-steez-left-process h4 {
       padding-top: 15%;
-      color: #fff !important;
+      color: #f54320 !important;
       padding-left: 15%; }
   .side-main-steez-left-about-intro {
-    background-color: #f54320;
+    background-color: none !important;
     max-height: 70vh;
     min-height: 17.5vh; }
     .side-main-steez-left-about-intro h4 {
       padding-top: 15%;
-      color: #fff !important;
+      color: #f54320 !important;
       padding-left: 15%; } }
 
 h4 ~ .side-main-steez-text {
@@ -20771,16 +20770,16 @@ h4 ~ .side-main-steez-text {
   line-height: normal; }
 
 .side-main-steez-left-about {
-  background-color: #f54320;
+  background-color: none !important;
   height: 50vh;
   min-width: 30vw; }
   .side-main-steez-left-about h4 {
     padding-top: 15%;
-    color: #fff !important;
+    color: #f54320 !important;
     padding-left: 15%; }
 
 .side-main-steez-right-about {
-  background-color: #fff;
+  background-color: none !important;
   max-height: 40vh;
   min-width: 30vw; }
 
